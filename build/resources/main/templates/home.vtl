@@ -1,0 +1,16 @@
+<title>Create Your Own Dictionary</title>
+<h1>Dictionary</h1>
+<br>
+  <br>
+    <br>
+
+      <b> List of Words You've Created! </b>
+<ul>
+  #foreach ($word in $words)
+    <li>$word.getName()</li>
+  #end
+</ul>
+
+<a href="/words/new">Add a New Word</a>
+
+<a href="/">Go Back</a>
